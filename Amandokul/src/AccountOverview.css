@@ -1,0 +1,137 @@
+.account-overview-container {
+  margin-top: 120px; /* Aumenta el margen superior para desplazar todo el contenido hacia abajo */
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px; /* Incrementa el espacio debajo del encabezado */
+}
+
+.robot-image {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.chopping-title {
+  font-size: 40px;
+  margin: 0;
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 5px;
+  margin-top: 60px; /* Aumenta el margen superior para separar del contenido */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.search-icon {  
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.account-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0; /* Aumenta el margen superior e inferior para más separación */
+}
+
+.account-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.account-content {
+  text-align: center;
+  margin-top: 30px; /* Aumenta el margen superior */
+}
+
+.membership-details {
+  border: 1px solid #ccc;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.membership-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.renew-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.renew-button:hover {
+  background-color: #0056b3;
+}
+
+.user-info {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.renewal-info {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.no-membership-info {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #dc3545;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.account-info {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.help-info {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+.account-nav .nav-link {
+  margin-right: 15px;
+  color: #000; /* Color del enlace */
+  text-decoration: none;
+}
+
+.account-nav .nav-link:last-child {
+  margin-right: 0;
+}
